@@ -1,0 +1,10 @@
+{
+	"displayName": "INTEGRATION",
+	"moduleFileExtensions": [
+      "go"
+    ],
+    "runner": "jest-runner-go",
+    "testMatch": [
+      "**/?(*_)test.go"
+    ]
+}

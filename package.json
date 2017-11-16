@@ -1,0 +1,34 @@
+{
+  "name": "go-runner-bin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "pkg package.json"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "go"
+    ],
+    "runner": "jest-runner-go",
+    "testMatch": [
+      "**/?(*_)test.go"
+    ]
+  },
+  "bin": "index.js",
+  "pkg": {
+  	"targets": [
+      "node8-linux-x64",
+      "node8-macos-x64",
+      "node8-win-x64"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-runner-go": "^0.1.0",
+    "pkg": "^4.3.0-beta.1"
+  }
+}
