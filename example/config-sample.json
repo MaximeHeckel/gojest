@@ -1,0 +1,10 @@
+{
+  "displayName": "GOLANG",
+  "moduleFileExtensions": [
+    "go"
+  ],
+  "runner": "/snapshot/gojest/node_modules/jest-runner-go",
+  "testMatch": [
+    "**/?(*_)test.go"
+  ]
+}

@@ -1,4 +1,4 @@
 node_modules
-go-runner-bin-linux
-go-runner-bin-macos
-go-runner-bin-win.exe
+gojest-linux
+gojest-macos
+gojest-win.exe

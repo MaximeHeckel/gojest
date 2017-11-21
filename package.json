@@ -1,34 +1,29 @@
 {
-  "name": "go-runner-bin",
-  "version": "1.0.0",
-  "description": "",
+  "name": "gojest",
+  "version": "0.0.1",
+  "description": "A compiled binary to run Golang tests with jest and jest-runner-go",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "pkg package.json"
   },
-  "jest": {
-    "moduleFileExtensions": [
-      "go"
-    ],
-    "runner": "jest-runner-go",
-    "testMatch": [
-      "**/?(*_)test.go"
-    ]
-  },
   "bin": "index.js",
   "pkg": {
-  	"targets": [
+    "targets": [
       "node8-linux-x64",
       "node8-macos-x64",
       "node8-win-x64"
+    ],
+    "assets": [
+      "package.json",
+      "node_modules/jest-runner-go/**/*"
     ]
   },
-  "author": "",
-  "license": "ISC",
+  "author": "@MaximeHeckel",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^21.2.1",
     "jest-runner-go": "^0.1.0",
-    "pkg": "^4.3.0-beta.1"
+    "pkg": "^4.2.5"
   }
 }
