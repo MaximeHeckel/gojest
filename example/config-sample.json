@@ -3,7 +3,7 @@
   "moduleFileExtensions": [
     "go"
   ],
-  "runner": "/snapshot/gojest/node_modules/jest-runner-go",
+  "runner": "jest-runner-go",
   "testMatch": [
     "**/?(*_)test.go"
   ]
