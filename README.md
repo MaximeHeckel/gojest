@@ -28,8 +28,8 @@ id=$(docker create maximeheckel/gojest:latest) &&
 docker cp $id:/gojest-linux /usr/local/bin/gojest && (docker rm $id >/dev/null)
 ```
 
+For Windows:
 ```bash
-For Windows
 docker pull maximeheckel/gojest:latest &&
 id=$(docker create maximeheckel/gojest:latest) &&
 docker cp $id:/gojest-win.exe gojest.exe && (docker rm $id >/dev/null)
