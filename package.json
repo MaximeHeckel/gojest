@@ -1,6 +1,6 @@
 {
   "name": "gojest",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A compiled binary to run Golang tests with jest and jest-runner-go",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,12 @@
       "node_modules/jest-runner-go/**/*"
     ]
   },
-  "author": "@MaximeHeckel",
+  "author": "Maxime Heckel (@MaximeHeckel)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaximeHeckel/gojest.git"
+  },
+  "homepage": "https://github.com/MaximeHeckel/gojest",
   "license": "MIT",
   "devDependencies": {
     "jest": "^21.2.1",

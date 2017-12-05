@@ -2,3 +2,5 @@ node_modules
 gojest-linux
 gojest-macos
 gojest-win.exe
+
+.DS_Store
